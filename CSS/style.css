@@ -4,7 +4,7 @@ body{
     margin:0;
     padding:0;
     font-family: 'Comfortaa', cursive;
-    font-size:18px;
+    font-size:10px;
 }
 
     body:before{
@@ -23,10 +23,116 @@ body{
     }
 
    
+    /*  HOMEPAGE---------------------------------------------------------------*/
+
+
+        
+        .logo{
+        margin:8px;
+        width:5%;
+        border-radius: 12em;
+        box-shadow: 0 0 0 3px rgb(255, 255, 255);
+        
+
+        }
+
+        .titre-logo{
+            display:flex;
+            flex-direction: row;
+            width: 65%;
+           
+            
+           
+        }
+            .titre{
+                font-size:1.5em;
+                width: 40%;
+                margin-left: 1em;
+                text-align: center;
+                text-shadow: 0 0 5px rgb(19, 16, 16), 0 0 10px rgb(218, 224, 232);
+                padding:2px;
+                background-color: rgba(121, 116, 116, 0.5);
+                
+
+               
+            }
+
+            /*--------------------MENU-----------------------*/
+            .branding{
+             display:flex;
+             background-color: rgba(121, 116, 116, 0.5);
+             text-shadow: 0 0 5px rgb(19, 16, 16), 0 0 10px rgb(250, 249, 246);
+             position: fixed;
+             flex-direction: row;
+             flex-wrap: nowrap;
+            
+            
+            }
+
+   
+
+            .nav-item {
+                flex-wrap: nowrap;
+                flex-direction: row;
+                display: flex;
+            }
+
+
+            .nav-item a {
+                list-style: none;
+                color: black;
+                font-size: 1.2em;
+                background-color: rgba(121, 116, 116, 0.5);
+                text-shadow: 0 0 5px rgb(19, 16, 16), 0 0 10px rgb(218, 224, 
+232);
+            }
+
+
+
+                /*------------------PRESENTATION*/
+                #intro{
+
+                    margin:auto;
+                    padding:6em 0em;
+                    font-size: 1.2em;
+                    display: flex;
+                    flex-direction: row;
+                    background-color: rgba(156, 146, 146, 0.5);
+                    
+
+                }
+
+                    .intro2{
+                    
+                    margin:3em;
+                    color:rgb(10, 10, 10);
+                    background-color: rgba(156, 146, 146, 0.5);
+                    width: 80%;
+                    padding: 15px;
+                    border-radius: 10px;
+                    
+
+                    
+                    }
+
+                        .pictureAri{
+                        -webkit-filter: drop-shadow(10px 10px 10px #ada7a7);
+                        filter: drop-shadow(10px 10px 10px #c1baba); 
+                        margin: 4em 4em;
+                        vertical-align: middle;
+                        }
+
+
+
+
+
+
+
+
 
     
 
-/* PARTIE FORMATION---------------------------------timeline----------- ------------------------------------------*/
+                        /* PARTIE FORMATION---------------------------------timeline----------- ------------------------------------------*/
 
 /*----------------titre-----------------*/
 #title{
@@ -41,11 +147,11 @@ body{
 
 
 .timeline{
-    position:relative;
-    margin:50px auto;
-    padding: 40px 0;
+ 
+    margin:0px auto;
+    padding: 100px 0;
     width:1000px;
-    background-color:rgba(238, 229, 229, 0.5);/* pour mettre le filtre derrière le timeline*/
+    background-color:rgba(150, 139, 139, 0.5);/* pour mettre le filtre derrière le timeline*/
     
 }
 
@@ -54,7 +160,7 @@ body{
     content:'';
     position:absolute;
     left:50%;
-    height:95%;
+    height:160%;
     width:3px;
     background-color: #0c0909;
 }
@@ -126,6 +232,7 @@ box-shadow: 0 0 0 3px rgba(255, 253, 253, 0.994);
 .content{
     padding-bottom:20px;
     
+    
 }
 
 
@@ -135,7 +242,7 @@ box-shadow: 0 0 0 3px rgba(255, 253, 253, 0.994);
 margin:10px 0 0;
 padding:0;
 color:black;
-font-size: 1.2em;
+font-size: 1em;
 
 }
 
@@ -148,6 +255,7 @@ margin:0;
 padding:0;
 font-weight: 600;
 color:rgb(11, 12, 14);
+font-size: 1.2em;
 }
 
 
@@ -235,91 +343,6 @@ color:rgb(11, 12, 14);
 /*https://www.youtube.com/c/OnlineTutorials4Designers*/
 
 
-/*--------------------MENU---------*/
-.menu{
- display:flex;
- background-color: rgba(238, 229, 229, 0.5);
- text-shadow: 0 0 5px rgb(19, 16, 16), 0 0 10px rgb(218, 224, 232);
-position: fixed;
- width: 100%;
- 
- 
-}
-
-nav{
- margin:3em 0em 2em 20em;
-    
-}
-nav ul{
-    display:flex;
-    flex-direction: row;
-    list-style: none;
-    gap:40px;
-    font-size: 1.2em;
- 
-    
-}
-
-nav a{
-    text-decoration: none;
-    color:black;
-   
-    
-}
-
-#logo img{
-    margin:5px 45px;
-    width:15%;
-    border-radius: 12em;
-    box-shadow: 0 0 0 3px rgb(255, 255, 255);
-
-}
-
-
-
-/*----------------------HOME---------------*/
-
-.home{
-    text-align: center;
-    color:white;
-    font-size: 2em;
-    background-color: rgba(11, 10, 10, 0.3);
-    padding:10.3em;
-  
-}
-
-
-
-
-/*------------------PRESENTATION*/
-#intro{
-    
-    margin:auto;
-    padding:6em 0em;
-    font-size: 1.5em;
-    display: flex;
-    flex-direction: row;
-    background-color: rgba(31, 27, 27, 0.5);
-     
-
-}
-
-.intro2{
-width: 40%;
-margin:6em;
-color:white;
-
-}
-
-.pictureAri{
--webkit-filter: drop-shadow(10px 10px 10px #ada7a7);
-filter: drop-shadow(10px 10px 10px #c1baba); 
-margin: 6em 6em;
-vertical-align: middle;
-
-
-}
-
 
 
 /*Formation*/
@@ -329,4 +352,26 @@ vertical-align: middle;
     text-shadow: 0 0 5px rgb(19, 16, 16), 0 0 10px rgb(218, 224, 232);
     background-color: rgba(238, 229, 229, 0.5);
     padding:2px; 
+}
+
+
+.projet{
+    padding-top: 10em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*-------------------------FOOTER----------------------------------------------------*/
+
+.copy{
+    text-align: center;
 }
